@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="LocalAI Studio — discover, manage, and chat with local AI models.">
+  <title>LocalAI Studio — Your AI. Your Machine.</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="nav wrap">
+  <a class="brand" href="#"><span class="logo">✳</span>LocalAI <b>Studio</b></a>
+  <button class="menu-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  <nav class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#how">How it works</a>
+    <a href="#download">Download</a>
+    <a href="https://github.com/Mohit01112/LocalAI-studio" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+  <a class="navbtn" href="#download">Get the app ›</a>
+</header>
+
+<main>
+<section class="hero wrap">
+  <div class="copy">
+    <div class="eyebrow"><i></i> YOUR AI. YOUR MACHINE.</div>
+    <h1>Local AI,<br><span>beautifully simple.</span></h1>
+    <p class="lead">Discover, manage, and chat with local AI models from one focused desktop workspace. Your models, your machine, your control.</p>
+    <div class="actions">
+      <a class="btn primary"
+         href="https://github.com/Mohit01112/LocalAI-studio/releases/download/v0.1.0/local-ai-studio_0.1.0_x64-setup.exe">
+        ⇩ Download for Windows
+      </a>
+      <a class="btn secondary" href="https://github.com/Mohit01112/LocalAI-studio" target="_blank" rel="noopener">⌘ Explore on GitHub ↗</a>
+    </div>
+    <div class="meta"><span>✓ Windows desktop app</span><span>✓ Open source</span><span>✓ Local-first</span></div>
+  </div>
+
+  <div class="window">
+    <div class="bar"><span class="lights">●　●　●</span><b>LocalAI Studio</b><small>● Ready</small></div>
+    <div class="app">
+      <aside>
+        <div class="appbrand">✳ LocalAI</div>
+        <small>WORKSPACE</small>
+        <div class="selected">▦　Discover models</div>
+        <div>⌘　Runtimes</div>
+        <div>✧　Chat</div>
+        <footer>LOCAL ENVIRONMENT<br><b>● System ready</b></footer>
+      </aside>
+      <div class="panel">
+        <small>YOUR WORKSPACE</small>
+        <h3>Discover models</h3>
+        <div class="stats">
+          <div><small>RUNTIMES</small><strong>3 <em>detected</em></strong></div>
+          <div><small>LOCAL MODELS</small><strong>8 <em>available</em></strong></div>
+        </div>
+        <h4>Available runtimes <small>VIEW ALL ↗</small></h4>
+        <div class="runtime"><b class="runtime-logo r0">O</b><span><strong>Ollama</strong><small>ollama</small></span><label>Running</label><b>›</b></div>
+        <div class="runtime"><b class="runtime-logo r1">LM</b><span><strong>LM Studio</strong><small>lm-studio</small></span><label>Ready</label><b>›</b></div>
+        <div class="runtime"><b class="runtime-logo r2">ll</b><span><strong>llama.cpp</strong><small>llama.cpp</small></span><label>Available</label><b>›</b></div>
+        <div class="appfoot">● Local environment <span>v0.1.0</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust wrap">
+  <span>BUILT FOR YOUR LOCAL AI WORKFLOW</span>
+  <div><b>⌘ Local runtimes</b><b>◇ Your environment</b><b>▣ Desktop native</b></div>
+</section>
+
+<section class="section wrap" id="features">
+  <div class="center">
+    <div class="eyebrow">ONE WORKSPACE. MORE POSSIBILITIES.</div>
+    <h2>Everything local AI,<br><span>in one place.</span></h2>
+    <p>Spend less time switching between tools and more time exploring what your models can do.</p>
+  </div>
+  <div class="cards">
+    <article>
+      <div class="feature-icon">⌕</div>
+      <h3>Detect your runtimes</h3>
+      <p>Find supported local AI runtimes installed on your machine and see their availability at a glance.</p>
+      <small>01 / DISCOVER</small>
+    </article>
+    <article>
+      <div class="feature-icon">▣</div>
+      <h3>Explore your models</h3>
+      <p>Bring your local model environment into one place and quickly see what's ready to use.</p>
+      <small>02 / EXPLORE</small>
+    </article>
+    <article>
+      <div class="feature-icon">✳</div>
+      <h3>Chat locally</h3>
+      <p>Start conversations with compatible local models from a clean, focused desktop interface.</p>
+      <small>03 / CREATE</small>
+    </article>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <div class="wrap howinner">
+    <div>
+      <div class="eyebrow">GET STARTED</div>
+      <h2>From install to<br><span>your first chat.</span></h2>
+      <p>A simple place to begin your local AI workflow.</p>
+      <a class="textlink" href="#download">Get the app ↗</a>
+    </div>
+    <div class="steps">
+      <div><i>01</i><span><b>Install LocalAI Studio</b><small>Download the Windows installer and launch the app.</small></span></div>
+      <div><i>02</i><span><b>Discover your environment</b><small>Scan for supported runtimes and locally available models.</small></span></div>
+      <div><i>03</i><span><b>Choose a model and chat</b><small>Connect to a compatible runtime and start exploring.</small></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="download">
+  <div class="download">
+    <div class="download-icon">✳</div>
+    <div class="eyebrow">LOCALAI STUDIO · V0.1.0</div>
+    <h2>Make room for<br><span>your own AI.</span></h2>
+    <p>Get started with LocalAI Studio for Windows. Explore and use local AI models from one desktop workspace.</p>
+    <div class="actions">
+      <a class="btn primary"
+         href="https://github.com/Mohit01112/LocalAI-studio/releases/download/v0.1.0/local-ai-studio_0.1.0_x64-setup.exe">
+        ⇩ Download latest release
+      </a>
+      <a class="btn secondary" href="https://github.com/Mohit01112/LocalAI-studio" target="_blank" rel="noopener">⌘ View source</a>
+    </div>
+    <small class="note">Windows · Version 0.1.0 · NSIS installer</small>
+  </div>
+</section>
+</main>
+
+<footer class="footer wrap">
+  <a class="brand" href="#"><span class="logo">✳</span>LocalAI <b>Studio</b></a>
+  <span>Built for curious minds. © 2026 Mohit Jadhav.</span>
+  <a href="https://github.com/Mohit01112/LocalAI-studio" target="_blank" rel="noopener">⌘ GitHub</a>
+</footer>
+</body>
+</html>
